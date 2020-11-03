@@ -1,0 +1,2 @@
+isPrime = lambda n: n>1 and not any([n%i for i in range(int(n**0.5))])
+
